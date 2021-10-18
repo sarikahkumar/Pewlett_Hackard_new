@@ -18,10 +18,10 @@ Please click on the following to view the csv files.
 [unique_titles.csv](https://github.com/sarikahkumar/Pewlett_Hackard_new/files/7361189/unique_titles.csv) ,
 [retiring_titles.csv](https://github.com/sarikahkumar/Pewlett_Hackard_new/files/7361220/retiring_titles.csv)
 
-A snapshot of the retiring employees (based on unique employee id) is given below:
+A snapshot of the retiring employees based on titles is given below:
 
- ![unique_titles](https://user-images.githubusercontent.com/89427676/137652456-8e74334a-b378-49c0-b274-0e2888f8e986.PNG)
-
+ ![retiring_titles](https://user-images.githubusercontent.com/89427676/137653331-79ce11dd-7d2a-426e-aabe-1db71b818ea8.PNG)
+ 
 Based on these data, it was found that,
   - 90398 employees were retiring from the company
   - 29414 Senior Engineers,28254 Senior Staff,14222 Engineer,12243 Staff,4502 Technique Leader,1761 Assistant Engineer, and 2 Managers were found to be retiring
