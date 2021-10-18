@@ -213,3 +213,59 @@ ON (e.emp_no = ti.emp_no)
 WHERE (de.to_date = '9999-01-01') 
 AND (e.birth_date BETWEEN '1965-01-01' AND '1965-12-31')
 ORDER BY e.emp_no;
+
+--Mentorship Titles Table creation
+SELECT COUNT(emp_no),
+title
+INTO mentorship_titles
+FROM mentorship_eligibility
+GROUP BY title
+ORDER BY count(title) DESC;
+
+select * from mentorship_titles;
+-- Deliverable 3 additional queries and tables
+--Department wise retiring population
+SELECT ut.emp_no,
+	   ut.first_name,
+	   ut.last_name,
+	   ut.title,
+	   d.dept_name
+INTO temp_department_name_retirees	   
+FROM unique_titles as ut
+INNER JOIN dept_emp as de
+ON (ut.emp_no = de.emp_no)
+INNER JOIN departments as d
+ON (de.dept_no = d.dept_no)
+WHERE de.to_date = '9999-01-01';
+
+SELECT COUNT(emp_no),
+dept_name
+INTO department_retirees
+FROM temp_department_name_retirees
+GROUP BY dept_name
+ORDER BY count(dept_name) DESC;
+
+select * from department_retirees;
+
+--Department wise mentorship eligibility
+SELECT me.emp_no,
+	   me.first_name,
+	   me.last_name,
+	   me.title,
+	   d.dept_name
+INTO temp_department_name_mentors	   
+FROM mentorship_eligibility as me
+INNER JOIN dept_emp as de
+ON (me.emp_no = de.emp_no)
+INNER JOIN departments as d
+ON (de.dept_no = d.dept_no)
+WHERE de.to_date = '9999-01-01';
+
+SELECT COUNT(emp_no),
+dept_name
+INTO department_mentors
+FROM temp_department_name_mentors
+GROUP BY dept_name
+ORDER BY count(dept_name) DESC;
+
+select * from department_mentors;
