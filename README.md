@@ -37,17 +37,19 @@ Based on the above, it was found that,
 
 ## Summary
 
+The analysis revealed the following:
+
 1. How many roles will need to be filled as the "silver tsunami" begins to make an impact?
 
 90398 positions will need to be filled up. More specifically,29414 Senior Engineers, 28254 Senior Staff, 14222 Engineer, 12243 Staff, 4502 Technique Leader, 1761 Assistant Engineer, and 2 Managers are retiring.
 
----
 2. Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
 
 Out of the current employees, around one-third are retiring, and to mentor the next generation of employees, only 1549 employees are available. Therefore, it can be concluded that the Pewlett Hackard does not have enough experienced employees for mentoring the next generation, considering the size of the company.
 
 ---
-### Additional queries
+### Additional queries for detailed analysis
+
   - Two queries for creating 2 new tables containing department wise retirees and department wise mentors available, were created to provide an insight into which department    requires more attention to address the "Silver tsunami".
   - Department wise retirees table is styled as "department_retirees" and csv file is department_retirees_Deliverable3.csv 
   [department_retirees.csv](https://github.com/sarikahkumar/Pewlett_Hackard_new/files/7361235/department_retirees.csv)
