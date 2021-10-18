@@ -11,7 +11,8 @@ This is an analysis of the employee database of Pewlett Hackard for future-proof
 Please note that the analysis was done using SQL
 ## Results
 
-A complete list of employees who will be retiring i.e who are born between January 1, 1952 and December 31, 1955 was created and is provided as a csv file named retirement_titles.csv in the Resources folder of this repository. As there were employees who held multiple positions/titles, a file named as unique_titles.csv was also created that contains the employee number, first and last name, and most recent title of the above retiring employees.The number of employees retiring, based on titles was also created, named as retiring_titles.csv for detailed analysis purpose. Please click on teh following to view the csv files.
+A complete list of employees who will be retiring i.e who are born between January 1, 1952 and December 31, 1955 was created and is styled as _retirement_titles_. As there were employees who held multiple positions/titles, another table styled _unique_titles.csv_ was also created that contains the employee number, first and last name, and most recent title of the above retiring employees.The number of employees retiring, based on titles was also created, named as _retiring_titles _ for detailed analysis purpose. 
+Please click on the following to view the csv files.
 
 [retirement_titles.csv](https://github.com/sarikahkumar/Pewlett_Hackard_new/files/7361219/retirement_titles.csv) , 
 [unique_titles.csv](https://github.com/sarikahkumar/Pewlett_Hackard_new/files/7361189/unique_titles.csv) ,
@@ -25,7 +26,7 @@ Based on these data, it was found that,
   - 90398 employees were retiring from the company
   - 29414 Senior Engineers,28254 Senior Staff,14222 Engineer,12243 Staff,4502 Technique Leader,1761 Assistant Engineer, and 2 Managers were found to be retiring
 ---
-A mentorship-eligibility table that holds the current employees who were born between January 1, 1965 and December 31, 1965 was created. Please click on teh following link to view the file.
+A mentorship-eligibility table that holds the current employees who were born between January 1, 1965 and December 31, 1965 was created. Please click on the following link to view the file.
 
 [mentorship_eligibility.csv](https://github.com/sarikahkumar/Pewlett_Hackard_new/files/7361193/mentorship_eligibility.csv)
 
