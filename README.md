@@ -11,7 +11,7 @@ This is an analysis of the employee database of Pewlett Hackard for future-proof
 Please note that the analysis was done using SQL
 ## Results
 
-A complete list of employees who will be retiring i.e who are born between January 1, 1952 and December 31, 1955 was created and is styled as _retirement_titles_. As there were employees who held multiple positions/titles, another table styled _unique_titles.csv_ was also created that contains the employee number, first and last name, and most recent title of the above retiring employees.The number of employees retiring, based on titles was also created, named as _retiring_titles _ for detailed analysis purpose. 
+A complete list of employees who will be retiring i.e who are born between January 1, 1952 and December 31, 1955 was created and is styled as _retirement_titles_. As there were employees who held multiple positions/titles, another table styled _unique_titles.csv_ was also created that contains the employee number, first and last name, and most recent title of the above retiring employees.The number of employees retiring, based on titles was also created, named as _retiring_titles_  for detailed analysis purpose. 
 Please click on the following to view the csv files.
 
 [retirement_titles.csv](https://github.com/sarikahkumar/Pewlett_Hackard_new/files/7361219/retirement_titles.csv) , 
