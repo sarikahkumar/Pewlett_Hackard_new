@@ -8,7 +8,7 @@ This is an analysis of the employee database of Pewlett Hackard for future-proof
 
 - Employees who are eligible to participate in a mentorship program.(The company's proposed mentoring program requires the current employees who were born between January 1,    1965 and December 31, 1965)
 
-
+Please note that the analysis was done using SQL
 ## Results
 
 A complete list of employees who will be retiring i.e who are born between January 1, 1952 and December 31, 1955 was created and is provided as a csv file named retirement_titles.csv in the Resources folder of this repository. As there were employees who held multiple positions/titles, a file named as unique_titles.csv was also created that contains the employee number, first and last name, and most recent title of the above retiring employees.The number of employees retiring, based on titles was also created, named as retiring_titles.csv for detailed analysis purpose. Please click on teh following to view the csv files.
