@@ -24,7 +24,7 @@ A snapshot of the retiring employees based on titles is given below:
  
 Based on these data, it was found that,
   - 90398 employees were retiring from the company
-  - 29414 Senior Engineers,28254 Senior Staff,14222 Engineer,12243 Staff,4502 Technique Leader,1761 Assistant Engineer, and 2 Managers were found to be retiring
+  - 29414 Senior Engineers, 28254 Senior Staff, 14222 Engineer, 12243 Staff, 4502 Technique Leader, 1761 Assistant Engineer, and 2 Managers were found to be retiring
 ---
 A mentorship-eligibility table that holds the current employees who were born between January 1, 1965 and December 31, 1965 was created. Please click on the following link to view the file.
 
